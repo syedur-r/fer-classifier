@@ -1,0 +1,8 @@
+# Ignore Mac Desktop Services file
+*.DS_Store
+
+# Ignore idea file
+.idea
+
+# Ignore pycache byte compiler
+__pycache__
