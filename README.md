@@ -40,12 +40,6 @@ The repository is comprised of five folders and five Python scripts:
 - Run the Main.py file
 
 
-## Acknowledgements
-- Both HaarCascade.py and MediaPipe.py incorporate code that do not belong to me, they were merely used and repurposed to achieve the objective of real-time emotion classification. Credits are due to the following sources:
-    - OpenCV : https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
-    - Advanced Computer Vision with Python - Full Course: https://youtu.be/01sAkU_NvOY?t=5307
-
-
 ## Requirements
 - Python 3
 - OpenCV
@@ -53,7 +47,13 @@ The repository is comprised of five folders and five Python scripts:
 - Keras
 
 
+## Acknowledgements
+- Both HaarCascade.py and MediaPipe.py incorporate code that do not belong to me, they were merely used and repurposed to achieve the objective of real-time emotion classification. Credits are due to the following sources:
+    - OpenCV : https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
+    - Advanced Computer Vision with Python - Full Course: https://youtu.be/01sAkU_NvOY?t=5307
+
+
 ## System Limitations
 - MediaPipe face detection causes the program to crash due to less RAM and CPU cores. In this case, a GPU is advisable, however it isn't required
-- If your face is out of bounds of the live webcam, the program will crash
-    - This is because MediaPipe requires coloured frames as an input for face detection, while the model requires grayscale frames as an input for emotion classification. Therefore, to prevent the program from crashing, the face must always be within the bounds of the window
+- If your face is out of bounds from the live webcam, the program will crash
+    - This is because MediaPipe requires coloured frames as an input for face detection, while the model requires grayscale frames as an input for emotion classification. Therefore, your face must always be within the bounds of the window to prevent the program from crashing
