@@ -23,13 +23,13 @@ The repository is comprised of five folders and five Python scripts:
 
 
 ## How to test the model on Images
-- Select an image variable of an emotion in the Images.py file
+- Select an image file path of an emotion in the Images.py file
 - Select one of the following face detection classifiers in Main.py (line 29): HaarCascade or MediaPipe
 - Uncomment line 16 on the Main.py script
 - Run the Main.py file
 
 ## How to test the model on Videos
-- Select a video variable of an emotion in the Videos.py file
+- Select a video file path of an emotion in the Videos.py file
 - Select one of the following face detection classifiers in Main.py (line 29): HaarCascade or MediaPipe
 - Uncomment line 17 on the Main.py script
 - Run the Main.py file
