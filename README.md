@@ -22,6 +22,13 @@ The repository is comprised of five folders and five Python scripts:
     - Videos.py
 
 
+## Requirements
+- Python 3
+- OpenCV
+- TensorFlow 
+- Keras
+
+
 ## How to test the model on Images
 - Select an image file path of an emotion in the Images.py file
 - Select one of the following face detection classifiers in Main.py (line 29): HaarCascade or MediaPipe
@@ -38,13 +45,6 @@ The repository is comprised of five folders and five Python scripts:
 - Select one of the following face detection classifiers in Main.py (line 29): HaarCascade or MediaPipe
 - Uncomment line 18 on the Main.py script
 - Run the Main.py file
-
-
-## Requirements
-- Python 3
-- OpenCV
-- TensorFlow 
-- Keras
 
 
 ## Acknowledgements
