@@ -1,7 +1,7 @@
 # Real-time FER Classifier
 
 ## Overview
-This repository contains driver code that helped me perform real-time testing on my best performing model.
+This repository contains driver code that helped me perform real-time testing on my best performing FER classification model.
 
 The repository is comprised of five folders and five Python scripts:
 - data:
