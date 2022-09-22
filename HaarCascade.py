@@ -2,7 +2,6 @@ import cv2 as cv
 import numpy as np
 from keras.preprocessing import image
 
-
 class FaceDetector:
     # constructor function with global variables
     def __init__(self, predictedEmotion=""):
